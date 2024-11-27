@@ -1,0 +1,14 @@
+{
+  "name": "manager-pro-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard application ui",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./css/style.css -o ./css/global.css --watch"
+  },
+  "author": "Funsho Cornelius",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
